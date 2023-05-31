@@ -15,7 +15,10 @@
         "plugin:@angular-eslint/template/process-inline-templates",
         "plugin:prettier/recommended"
       ],
-      "plugins": ["@typescript-eslint", "prettier"],
+      "plugins": [
+        "@typescript-eslint",
+        "prettier"
+      ],
       "rules": {
         "@angular-eslint/directive-selector": [
           "error",
@@ -44,6 +47,14 @@
         "plugin:@angular-eslint/template/accessibility"
       ],
       "rules": {}
+    },
+    {
+      "files": [
+        "*.ts"
+      ],
+      "extends": [
+        "plugin:@ngrx/recommended-requiring-type-checking"
+      ]
     }
   ]
 }

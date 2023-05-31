@@ -1,9 +1,6 @@
-<section class="main">
-  <label>
-    Mark as Complete
-    <input type="toggle-all" type="checkbox" />
-  </label>
-  <ul class="list">
-    <app-todo-item></app-todo-item>
-  </ul>
-</section>
+<ul class="list">
+  <app-todo-item
+    *ngFor="let todo of todoList() | filterTodo : currentFilter()"
+    [todo]="todo"
+  ></app-todo-item>
+</ul>

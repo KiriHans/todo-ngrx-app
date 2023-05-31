@@ -1,0 +1,78 @@
+@font-face {
+  font-family: Epilogue;
+  src: url('src/assets/fonts/Epilogue-VariableFont_wght.ttf');
+}
+
+:host{
+  --elevated-card-color: rgb(236, 236, 236);
+  --elevation-card: 0px 2px 3px -1px rgba(0, 0, 0, .2), 0px 1px 2px 0px rgba(0, 0, 0, .14), 0px 1px 3px 0px rgba(0, 0, 0, .12);
+  --max-width-card: 600px;
+  --width-pages-background: 7px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+h2{
+  color: #ff4081;
+  font-weight: 200;
+  font-size: 6rem;
+  font-family: 'Epilogue', sans-serif;
+
+  text-align: center;
+  align-items: center;
+  margin: 4rem 0 3rem;
+  
+}
+
+header{
+  margin: 0 auto;  
+  width: min(70%, var(--max-width-card));
+}
+
+.todo {
+  margin: 1rem 0;
+  margin-top: 0;
+  width: min(70%, var(--max-width-card));
+  padding-top: 0;
+  position: relative;
+  box-sizing: border-box;
+
+  background-color: #fff;
+
+  display: flex;
+  flex-direction: column;
+  border-color: var(--elevated-card-color);
+  box-shadow: var(--elevation-card);
+}
+
+.todo::before,  
+.todo::after{
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 100%;
+  width: var(--width-pages-background);
+  height: 97%;
+  border-radius: 0 3px 3px 0;
+  background-color: rgba(203, 203, 203, 0.843);
+  transform: translateY(-50%)
+}
+
+.todo::before {
+  height: 94%;
+  left: calc(100% + var(--width-pages-background));
+  background-color: rgb(158, 158, 158)
+}
+
+.main{
+  padding: 0.7rem;
+}
+
+app-footer{
+ 
+  margin-top: 2rem;
+  width: min(70%, var(--max-width-card));
+}

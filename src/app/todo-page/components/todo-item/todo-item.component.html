@@ -1,11 +1,24 @@
-<li class="completed">
+<li [ngClass]="{ completed: todo.completed, editing: editing }">
   <div class="view">
-    <label
-      >Data
+    <mat-checkbox [formControl]="completed"> </mat-checkbox>
 
-      <input type="checkbox" />
+    <label (dblclick)="editTodo()" for="add">
+      {{ todo.text }}
     </label>
-    <button class="destroy">Content</button>
+    <button (click)="deleteTodo()" mat-icon-button class="destroy">
+      <mat-icon>close</mat-icon>
+    </button>
   </div>
-  <input class="edit" value="Create new todo" type="text" />
+
+  <input
+    [cdkTrapFocusAutoCapture]="editing"
+    [cdkTrapFocus]="editing"
+    [formControl]="inputTodo"
+    [value]="todo.text"
+    (blur)="stopEdit()"
+    (keyup.enter)="stopEdit()"
+    appSelect
+    class="edit"
+    type="text"
+  />
 </li>

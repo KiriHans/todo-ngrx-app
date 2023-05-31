@@ -1,1 +1,22 @@
-<input placeholder="What do you want to do?" type="text" />
+<mat-form-field class="field-add-todo">
+  <button (click)="toggleAllTodos($event)" matIconPrefix mat-icon-button>
+    <mat-icon *ngIf="toggleAll; else completed" class="toggle-icon completed"> toggle_on </mat-icon>
+    <ng-template #completed>
+      <mat-icon class="toggle-icon no-completed">
+        <span class="material-symbols-outlined"> toggle_off </span>
+      </mat-icon>
+    </ng-template>
+  </button>
+
+  <input
+    matInput
+    class="input-create"
+    placeholder="What do you want to do?"
+    [formControl]="todoAdd"
+    (keyup.enter)="add()"
+  />
+
+  <button class="add-button" (click)="add()" matIconSuffix mat-icon-button>
+    <mat-icon class="material-symbols-outlined add-icon"> add_outline </mat-icon>
+  </button>
+</mat-form-field>
