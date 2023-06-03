@@ -1,6 +1,6 @@
 import { createReducer, on } from '@ngrx/store';
-import { ValidFilters } from '../actions/filter.actions';
 import * as FilterActions from '../actions/filter.actions';
+import { ValidFilters } from '../../types/valid-filter.type';
 
 export const filterFeatureKey = 'filter';
 

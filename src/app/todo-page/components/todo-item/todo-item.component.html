@@ -2,7 +2,7 @@
   <div class="view">
     <mat-checkbox [formControl]="completed"> </mat-checkbox>
 
-    <label (dblclick)="editTodo()" for="add">
+    <label (dblclick)="editTodo()" for="edit">
       {{ todo.text }}
     </label>
     <button (click)="deleteTodo()" mat-icon-button class="destroy">

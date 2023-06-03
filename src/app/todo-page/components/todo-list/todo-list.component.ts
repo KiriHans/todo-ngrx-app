@@ -8,8 +8,8 @@ import { TodoItem } from '../../models/todo-item.model';
 
 import { selectTodoList } from '../../store/selectors/todo.selectors';
 import { FilterPipe } from '../../pipes/filter.pipe';
-import { ValidFilters } from '../../store/actions/filter.actions';
 import { selectFilter } from '../../store/selectors/filter.selectors';
+import { ValidFilters } from '../../types/valid-filter.type';
 
 @Component({
   selector: 'app-todo-list',

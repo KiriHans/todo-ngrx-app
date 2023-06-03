@@ -1,7 +1,9 @@
 <mat-form-field class="field-add-todo">
   <button (click)="toggleAllTodos($event)" matIconPrefix mat-icon-button>
-    <mat-icon *ngIf="toggleAll; else completed" class="toggle-icon completed"> toggle_on </mat-icon>
-    <ng-template #completed>
+    <mat-icon *ngIf="toggleAll; else noCompleted" class="toggle-icon completed">
+      toggle_on
+    </mat-icon>
+    <ng-template #noCompleted>
       <mat-icon class="toggle-icon no-completed">
         <span class="material-symbols-outlined"> toggle_off </span>
       </mat-icon>

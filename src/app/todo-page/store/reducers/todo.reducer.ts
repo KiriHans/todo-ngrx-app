@@ -4,14 +4,11 @@ import { TodoItem } from '../../models/todo-item.model';
 
 export const todoFeatureKey = 'todos';
 
-export const initialState: TodoItem[] = [
-  new TodoItem('Mirar al espejo', 1),
-  new TodoItem('Golpear una anciana', 2),
-  new TodoItem('Destruir un hogar', 3),
-];
+export const initialState: TodoItem[] = [];
 
 export const todoReducer = createReducer(
   initialState,
+
   on(TodoActions.createTodo, (state, { text }): TodoItem[] => {
     return [...state, new TodoItem(text)];
   }),

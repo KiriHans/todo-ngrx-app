@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FooterComponent should match snapshot 1`] = `
+<div
+  id="root1"
+>
+  <footer
+    class="information"
+  >
+    <p>
+      <strong>
+         Double-click 
+      </strong>
+       to edit a todo
+    </p>
+    <p>
+      <strong>
+         Enter 
+      </strong>
+       to add a new todo
+    </p>
+    <p>
+      Project created using Angular V16
+    </p>
+  </footer>
+</div>
+`;

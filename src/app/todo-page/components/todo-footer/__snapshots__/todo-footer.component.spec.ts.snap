@@ -1,0 +1,126 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TodoFooterComponent should match snapshot 1`] = `
+<div
+  id="root1"
+>
+  <footer>
+    <span
+      class="todo-count"
+    >
+      <strong>
+        1
+      </strong>
+       items left 
+    </span>
+    <ul
+      class="filters"
+    >
+      <li>
+        
+        <a
+          aria-disabled="false"
+          class="mdc-button mat-mdc-button _mat-animation-noopable mat-unthemed mat-mdc-button-base"
+          href="/#all"
+          mat-button=""
+          mat-button-ripple-uninitialized=""
+          routerlinkactive="active-filter"
+        >
+          <span
+            class="mat-mdc-button-persistent-ripple mdc-button__ripple"
+          />
+          <span
+            class="mdc-button__label"
+          >
+             All 
+          </span>
+          <span
+            class="mat-mdc-focus-indicator"
+          />
+          <span
+            class="mat-mdc-button-touch-target"
+          />
+        </a>
+        
+      </li>
+      <li>
+        <a
+          aria-disabled="false"
+          class="mdc-button mat-mdc-button _mat-animation-noopable mat-unthemed mat-mdc-button-base"
+          href="/#completed"
+          mat-button=""
+          mat-button-ripple-uninitialized=""
+        >
+          <span
+            class="mat-mdc-button-persistent-ripple mdc-button__ripple"
+          />
+          <span
+            class="mdc-button__label"
+          >
+             Completed 
+          </span>
+          <span
+            class="mat-mdc-focus-indicator"
+          />
+          <span
+            class="mat-mdc-button-touch-target"
+          />
+        </a>
+        
+        
+      </li>
+      <li>
+        <a
+          aria-disabled="false"
+          class="mdc-button mat-mdc-button _mat-animation-noopable mat-unthemed mat-mdc-button-base"
+          href="/#pending"
+          mat-button=""
+          mat-button-ripple-uninitialized=""
+        >
+          <span
+            class="mat-mdc-button-persistent-ripple mdc-button__ripple"
+          />
+          <span
+            class="mdc-button__label"
+          >
+             Pending 
+          </span>
+          <span
+            class="mat-mdc-focus-indicator"
+          />
+          <span
+            class="mat-mdc-button-touch-target"
+          />
+        </a>
+        
+        
+      </li>
+      
+    </ul>
+    
+    <button
+      class="clear-completed mdc-button mdc-button--unelevated mat-mdc-unelevated-button _mat-animation-noopable mat-unthemed mat-mdc-button-base"
+      fragment="all"
+      mat-button-ripple-uninitialized=""
+      mat-flat-button=""
+      tabindex="0"
+    >
+      <span
+        class="mat-mdc-button-persistent-ripple mdc-button__ripple"
+      />
+      <span
+        class="mdc-button__label"
+      >
+         Clear completed 
+      </span>
+      <span
+        class="mat-mdc-focus-indicator"
+      />
+      <span
+        class="mat-mdc-button-touch-target"
+      />
+    </button>
+    
+  </footer>
+</div>
+`;

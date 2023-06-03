@@ -1,6 +1,6 @@
 import { Pipe, PipeTransform } from '@angular/core';
 import { TodoItem } from '../models/todo-item.model';
-import { ValidFilters } from '../store/actions/filter.actions';
+import { ValidFilters } from '../types/valid-filter.type';
 
 @Pipe({
   name: 'filterTodo',

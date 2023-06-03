@@ -97,35 +97,3 @@ li.editing .edit {
   'GRAD' 0,
   'opsz' 48
 }
-
-
-
-/* mat-list-item .destroy {
-	display: none;
-	position: absolute;
-	top: 0;
-	right: 10px;
-	bottom: 0;
-	width: 40px;
-	height: 40px;
-	margin: auto 0;
-	font-size: 30px;
-	color: #949494;
-	transition: color 0.2s ease-out;
-}
-
-mat-list-item .destroy:hover,
-mat-list-item .destroy:focus {
-	color: #C18585;
-}
-
-mat-list-item .destroy:after {
-	content: '×';
-	display: block;
-	height: 100%;
-	line-height: 1.1;
-}
-
-mat-list-item:hover .destroy {
-	display: block;
-} */

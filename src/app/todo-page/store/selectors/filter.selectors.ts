@@ -1,5 +1,5 @@
 import { createFeatureSelector, createSelector } from '@ngrx/store';
-import { ValidFilters } from '../actions/filter.actions';
+import { ValidFilters } from '../../types/valid-filter.type';
 
 export const selectFeature = createFeatureSelector<ValidFilters>('filter');
 

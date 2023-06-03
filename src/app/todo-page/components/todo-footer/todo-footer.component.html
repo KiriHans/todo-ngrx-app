@@ -1,32 +1,37 @@
 <footer>
-  <span class="todo-count"
-    ><strong>{{ itemsLeftList().length }}</strong> items left</span
-  >
-  <ul class="filters">
+  <span class="todo-count">
+    <strong>{{ itemsLeftList().length }}</strong> items left
+  </span>
+  <ul class="filters" *ngIf="todoList().length !== 0">
     <li *ngFor="let filter of filterList">
       <a
+        [routerLink]="'.'"
+        [fragment]="filter"
         (click)="changeFilter(filter)"
         *ngIf="filter !== currentFilter()"
         mat-button
-        class="selected"
-        [routerLink]="'.'"
-        [fragment]="filter"
       >
         {{ filter | titlecase }}
       </a>
       <a
-        *ngIf="filter === currentFilter()"
-        mat-button
-        class="selected"
         [routerLink]="'.'"
         [fragment]="filter"
+        *ngIf="filter === currentFilter()"
+        mat-button
         routerLinkActive="active-filter"
       >
         {{ filter | titlecase }}
       </a>
     </li>
   </ul>
-  <button (click)="cleanCompletedTodos()" mat-flat-button class="clear-completed">
+  <button
+    class="clear-completed"
+    [routerLink]="'.'"
+    fragment="all"
+    (click)="clearCompletedTodos()"
+    mat-flat-button
+    *ngIf="todoList().length !== 0"
+  >
     Clear completed
   </button>
 </footer>

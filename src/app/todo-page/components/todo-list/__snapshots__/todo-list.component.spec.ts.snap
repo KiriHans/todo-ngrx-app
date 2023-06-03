@@ -1,0 +1,314 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TodoListComponent should match snapshot 1`] = `
+<div
+  id="root3"
+>
+  <ul
+    class="list"
+  >
+    <app-todo-item>
+      <li>
+        <div
+          class="view"
+        >
+          <mat-checkbox
+            class="mat-mdc-checkbox mat-accent _mat-animation-noopable ng-untouched ng-pristine ng-valid"
+          >
+            <div
+              class="mdc-form-field"
+            >
+              <div
+                class="mdc-checkbox"
+              >
+                <div
+                  class="mat-mdc-checkbox-touch-target"
+                />
+                <input
+                  class="mdc-checkbox__native-control"
+                  id="mat-mdc-checkbox-4-input"
+                  tabindex="0"
+                  type="checkbox"
+                />
+                <div
+                  class="mdc-checkbox__ripple"
+                />
+                <div
+                  class="mdc-checkbox__background"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="mdc-checkbox__checkmark"
+                    focusable="false"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      class="mdc-checkbox__checkmark-path"
+                      d="M1.73,12.91 8.1,19.28 22.79,4.59"
+                      fill="none"
+                    />
+                  </svg>
+                  <div
+                    class="mdc-checkbox__mixedmark"
+                  />
+                </div>
+                <div
+                  class="mat-ripple mat-mdc-checkbox-ripple mat-mdc-focus-indicator"
+                  mat-ripple=""
+                />
+              </div>
+              <label
+                class="mdc-label"
+                for="mat-mdc-checkbox-4-input"
+              />
+            </div>
+          </mat-checkbox>
+          <label
+            for="edit"
+          >
+             test todo 1 
+          </label>
+          <button
+            class="destroy mdc-icon-button mat-mdc-icon-button _mat-animation-noopable mat-unthemed mat-mdc-button-base"
+            mat-button-ripple-uninitialized=""
+            mat-icon-button=""
+          >
+            <span
+              class="mat-mdc-button-persistent-ripple mdc-icon-button__ripple"
+            />
+            <mat-icon
+              aria-hidden="true"
+              class="mat-icon notranslate material-icons mat-ligature-font mat-icon-no-color"
+              data-mat-icon-type="font"
+              role="img"
+            >
+              close
+            </mat-icon>
+            <span
+              class="mat-mdc-focus-indicator"
+            />
+            <span
+              class="mat-mdc-button-touch-target"
+            />
+          </button>
+        </div>
+        <div
+          aria-hidden="true"
+          class="cdk-visually-hidden cdk-focus-trap-anchor"
+        />
+        <input
+          appselect=""
+          class="edit ng-untouched ng-pristine ng-valid"
+          type="text"
+        />
+        <div
+          aria-hidden="true"
+          class="cdk-visually-hidden cdk-focus-trap-anchor"
+        />
+      </li>
+    </app-todo-item>
+    <app-todo-item>
+      <li>
+        <div
+          class="view"
+        >
+          <mat-checkbox
+            class="mat-mdc-checkbox mat-accent _mat-animation-noopable ng-untouched ng-pristine ng-valid"
+          >
+            <div
+              class="mdc-form-field"
+            >
+              <div
+                class="mdc-checkbox"
+              >
+                <div
+                  class="mat-mdc-checkbox-touch-target"
+                />
+                <input
+                  class="mdc-checkbox__native-control"
+                  id="mat-mdc-checkbox-5-input"
+                  tabindex="0"
+                  type="checkbox"
+                />
+                <div
+                  class="mdc-checkbox__ripple"
+                />
+                <div
+                  class="mdc-checkbox__background"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="mdc-checkbox__checkmark"
+                    focusable="false"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      class="mdc-checkbox__checkmark-path"
+                      d="M1.73,12.91 8.1,19.28 22.79,4.59"
+                      fill="none"
+                    />
+                  </svg>
+                  <div
+                    class="mdc-checkbox__mixedmark"
+                  />
+                </div>
+                <div
+                  class="mat-ripple mat-mdc-checkbox-ripple mat-mdc-focus-indicator"
+                  mat-ripple=""
+                />
+              </div>
+              <label
+                class="mdc-label"
+                for="mat-mdc-checkbox-5-input"
+              />
+            </div>
+          </mat-checkbox>
+          <label
+            for="edit"
+          >
+             test todo 2 
+          </label>
+          <button
+            class="destroy mdc-icon-button mat-mdc-icon-button _mat-animation-noopable mat-unthemed mat-mdc-button-base"
+            mat-button-ripple-uninitialized=""
+            mat-icon-button=""
+          >
+            <span
+              class="mat-mdc-button-persistent-ripple mdc-icon-button__ripple"
+            />
+            <mat-icon
+              aria-hidden="true"
+              class="mat-icon notranslate material-icons mat-ligature-font mat-icon-no-color"
+              data-mat-icon-type="font"
+              role="img"
+            >
+              close
+            </mat-icon>
+            <span
+              class="mat-mdc-focus-indicator"
+            />
+            <span
+              class="mat-mdc-button-touch-target"
+            />
+          </button>
+        </div>
+        <div
+          aria-hidden="true"
+          class="cdk-visually-hidden cdk-focus-trap-anchor"
+        />
+        <input
+          appselect=""
+          class="edit ng-untouched ng-pristine ng-valid"
+          type="text"
+        />
+        <div
+          aria-hidden="true"
+          class="cdk-visually-hidden cdk-focus-trap-anchor"
+        />
+      </li>
+    </app-todo-item>
+    <app-todo-item>
+      <li>
+        <div
+          class="view"
+        >
+          <mat-checkbox
+            class="mat-mdc-checkbox mat-accent _mat-animation-noopable ng-untouched ng-pristine ng-valid"
+          >
+            <div
+              class="mdc-form-field"
+            >
+              <div
+                class="mdc-checkbox"
+              >
+                <div
+                  class="mat-mdc-checkbox-touch-target"
+                />
+                <input
+                  class="mdc-checkbox__native-control"
+                  id="mat-mdc-checkbox-6-input"
+                  tabindex="0"
+                  type="checkbox"
+                />
+                <div
+                  class="mdc-checkbox__ripple"
+                />
+                <div
+                  class="mdc-checkbox__background"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="mdc-checkbox__checkmark"
+                    focusable="false"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      class="mdc-checkbox__checkmark-path"
+                      d="M1.73,12.91 8.1,19.28 22.79,4.59"
+                      fill="none"
+                    />
+                  </svg>
+                  <div
+                    class="mdc-checkbox__mixedmark"
+                  />
+                </div>
+                <div
+                  class="mat-ripple mat-mdc-checkbox-ripple mat-mdc-focus-indicator"
+                  mat-ripple=""
+                />
+              </div>
+              <label
+                class="mdc-label"
+                for="mat-mdc-checkbox-6-input"
+              />
+            </div>
+          </mat-checkbox>
+          <label
+            for="edit"
+          >
+             test todo 2 
+          </label>
+          <button
+            class="destroy mdc-icon-button mat-mdc-icon-button _mat-animation-noopable mat-unthemed mat-mdc-button-base"
+            mat-button-ripple-uninitialized=""
+            mat-icon-button=""
+          >
+            <span
+              class="mat-mdc-button-persistent-ripple mdc-icon-button__ripple"
+            />
+            <mat-icon
+              aria-hidden="true"
+              class="mat-icon notranslate material-icons mat-ligature-font mat-icon-no-color"
+              data-mat-icon-type="font"
+              role="img"
+            >
+              close
+            </mat-icon>
+            <span
+              class="mat-mdc-focus-indicator"
+            />
+            <span
+              class="mat-mdc-button-touch-target"
+            />
+          </button>
+        </div>
+        <div
+          aria-hidden="true"
+          class="cdk-visually-hidden cdk-focus-trap-anchor"
+        />
+        <input
+          appselect=""
+          class="edit ng-untouched ng-pristine ng-valid"
+          type="text"
+        />
+        <div
+          aria-hidden="true"
+          class="cdk-visually-hidden cdk-focus-trap-anchor"
+        />
+      </li>
+    </app-todo-item>
+    
+  </ul>
+  
+</div>
+`;
