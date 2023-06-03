@@ -58,5 +58,7 @@ describe('TodoPageComponent', () => {
 
   it('should have an h2 Element', () => {
     const title = el.query(By.css('h2'));
+
+    expect(title).toBeTruthy();
   });
 });
