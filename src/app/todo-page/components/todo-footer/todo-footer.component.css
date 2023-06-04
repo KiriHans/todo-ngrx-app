@@ -8,12 +8,20 @@ footer{
   flex-direction: row;
   align-items: center;
   justify-content: space-around;
-
+  flex-wrap: wrap;
+  
+  padding: 1rem;
+  
   font-size: 0.8rem;
 
-  padding: 0.3rem 0.5rem;
+}
 
-  height: 2.6rem;
+@media (width > 30rem) {
+  footer{
+    padding: 0.3rem 0.5rem;
+    min-height: 2.6rem;
+  }
+  
 }
 
 .todo-count{
